@@ -1,0 +1,204 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap');
+
+
+
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo básico del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image:url(media/img/future-night-city-with-futuristic-skyscrapers_107791-996.jpg) ;
+    background-color: #f4f4f4;
+    color: #000;
+    background-attachment: fixed;
+}
+
+/* Estilo del header y navegación */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    font-family: "Share Tech Mono", monospace;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #3f0d79;
+}
+
+/* Estilo de las secciones */
+section {
+    padding: 4rem 1rem;
+    margin-top: 60px; /* Para evitar que el contenido quede oculto debajo del header */
+    text-align: center;
+}
+
+h2 {
+    font-family: "Press Start 2P", serif;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #0f0f0f;
+}
+
+.contenido {
+    font-family: "Press Start 2P", serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #0f0f0f;
+}
+
+
+#sobre-mi img {
+    
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+#boton:hover{
+
+    box-shadow: -8px 2px 86px 45px rgba(183,71,248,1) inset;
+-webkit-box-shadow: -8px 2px 86px 45px rgba(183,71,248,1) inset;
+-moz-box-shadow: -8px 2px 86px 45px rgba(183,71,248,1) inset;
+
+}
+/* Estilo para la lista de conocimientos */
+#conocimientos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#conocimientos li {
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #51148abe;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#conocimientos li:hover {
+    background-color: #b747f8;
+}
+
+/*Estilo para proyectos*/
+
+#proyecto ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#proyecto li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #51148abe;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#proyecto li:hover{
+    background-color: #b747f8;
+}
+
+
+#proyecto h2{
+    padding: 2rem;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+
+/* Estilo del formulario de contacto */
+form {
+    font-family: "Press Start 2P", serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #41106ebe;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Press Start 2P", serif;
+}
+
+form button:hover {
+    
+    background-color: #b747f8;
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #000;;
+    color: #fff;
+    font-family: "Press Start 2P", serif;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    #sobre-mi img {
+        max-width: 150px;
+    }
+}
