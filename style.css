@@ -4,14 +4,14 @@
 
 
 
-/* Reset de márgenes y padding */
+/* márgenes y padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo básico del cuerpo */
+/* Estilo del cuerpo */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -55,6 +55,7 @@ nav ul li a:hover {
 }
 
 /* Estilo de las secciones */
+
 section {
     padding: 4rem 1rem;
     margin-top: 60px; /* Para evitar que el contenido quede oculto debajo del header */
@@ -68,6 +69,9 @@ h2 {
     color: #0f0f0f;
 }
 
+h1{
+    color: #fff;
+}
 .contenido {
     font-family: "Press Start 2P", serif;
     max-width: 1200px;
@@ -90,7 +94,8 @@ h2 {
 -moz-box-shadow: -8px 2px 86px 45px rgba(183,71,248,1) inset;
 
 }
-/* Estilo para la lista de conocimientos */
+/* Estilo lista de conocimientos */
+
 #conocimientos ul {
     list-style-type: none;
     padding: 0;
@@ -129,11 +134,18 @@ h2 {
 
 #proyecto li:hover{
     background-color: #b747f8;
+    color: #fff;
 }
 
 
 #proyecto h2{
     padding: 2rem;
+}
+
+#contacto{
+
+    background-color: #3f0d79;
+    
 }
 
 /* Estilo de los enlaces */
@@ -144,7 +156,7 @@ a {
 }
 
 a:hover {
-    color: #4CAF50;
+    color: #b3a8c0;
 }
 
 /* Estilo del formulario de contacto */
@@ -155,6 +167,7 @@ form {
     max-width: 500px;
     margin: 0 auto;
     text-align: left;
+    color: #fff;
 }
 
 form label {
@@ -200,5 +213,10 @@ footer {
 
     #sobre-mi img {
         max-width: 150px;
+    }
+
+    body{
+
+        max-width: 480px;
     }
 }
