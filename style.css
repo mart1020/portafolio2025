@@ -16,6 +16,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image:url(media/img/future-night-city-with-futuristic-skyscrapers_107791-996.jpg) ;
+    
+    
     background-color: #f4f4f4;
     color: #000;
     background-attachment: fixed;
@@ -86,7 +88,10 @@ h1{
     border-radius: 50%;
     margin-bottom: 1rem;
 }
+.h3_sobremi_media{
 
+    display: none;
+}
 #boton:hover{
 
     box-shadow: -8px 2px 86px 45px rgba(183,71,248,1) inset;
@@ -221,6 +226,14 @@ footer {
         max-width: 150px;
     }
 
+    .h3_sobremi_media{
+        display: contents;
+    }
+
+    .h2_sobremi_media{
+        display: none;
+    }
+
     .conocimiento_h2{
 
        display: none;
@@ -232,7 +245,8 @@ footer {
     }
 
     body{
-
+        
+    
         max-width: 480px;
     }
 
