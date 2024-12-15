@@ -16,9 +16,6 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-image:url(media/img/future-night-city-with-futuristic-skyscrapers_107791-996.jpg) ;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size:cover;
     background-color: #f4f4f4;
     color: #000;
     background-attachment: fixed;
@@ -45,8 +42,6 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
-    
-    
 }
 
 nav ul li a {
@@ -118,6 +113,11 @@ h1{
 
 #conocimientos li:hover {
     background-color: #b747f8;
+}
+
+.conocimiento_media{
+
+    display: none;
 }
 
 /*Estilo para proyectos*/
@@ -213,25 +213,31 @@ footer {
 /* Estilos responsivos */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column-reverse;
-        max-width: 150px;
-        
+        flex-direction: column;
+        display: grid;
     }
-
-    
 
     #sobre-mi img {
         max-width: 150px;
     }
 
+    .conocimiento_h2{
+
+       display: none;
+    }
+
+    .conocimiento_media{
+
+        display:contents;
+    }
+
     body{
-        
-       background-color: #b747f8;
-        
+
+        max-width: 480px;
     }
 
     .comp{
-
+        
         display: none;
     }
 }
